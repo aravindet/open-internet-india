@@ -1,0 +1,32 @@
+html, body { 
+  padding: 0; margin: 0;
+  font: 14px serif;
+  line-height: 1.5em;
+}
+body {
+  max-width: 40em;
+  padding: 0 4em;
+  margin: 4em auto;
+}
+.banner-incomplete {
+  color: #c00;
+  font-weight: bold;
+  border: 1px solid #c00; 
+  border-left-style: none;
+  border-right-style:none;
+}
+
+h1, h2 {
+  font-family: sans;
+  font-weight: normal;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  line-height: 1.1em;
+}
+p { text-align: justify; margin-top: 1em; margin-bottom: 1em; }
+
+a { text-decoration: none; color: #27f; }
+a.strong { font-weight: bold; }
+a:hover { text-decoration: underline; }
+
+#scrollback-container { height: 600px; }
